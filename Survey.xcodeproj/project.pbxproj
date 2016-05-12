@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03B366AED3BE1E78A9EFEC58 /* Pods_Survey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD02A3C68F5F1D28E763264E /* Pods_Survey.framework */; };
+		043484301CE079EC00F75101 /* TwitterClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0434842F1CE079EC00F75101 /* TwitterClient.swift */; };
+		043484331CE33BF200F75101 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043484321CE33BF200F75101 /* User.swift */; };
+		043484351CE3407F00F75101 /* Utis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043484341CE3407F00F75101 /* Utis.swift */; };
+		043484391CE37FEF00F75101 /* MainScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043484381CE37FEF00F75101 /* MainScreenVC.swift */; };
 		045031021CDDA1F900B880B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045031011CDDA1F900B880B1 /* AppDelegate.swift */; };
 		045031041CDDA1F900B880B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045031031CDDA1F900B880B1 /* ViewController.swift */; };
 		045031071CDDA1F900B880B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045031051CDDA1F900B880B1 /* Main.storyboard */; };
 		045031091CDDA1F900B880B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045031081CDDA1F900B880B1 /* Assets.xcassets */; };
 		0450310C1CDDA1F900B880B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0450310A1CDDA1F900B880B1 /* LaunchScreen.storyboard */; };
+		045031151CDDA8EA00B880B1 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045031141CDDA8EA00B880B1 /* FBSDKCoreKit.framework */; };
+		045031171CDDA8F200B880B1 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045031161CDDA8F200B880B1 /* FBSDKLoginKit.framework */; };
+		045031191CDDA8F900B880B1 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045031181CDDA8F900B880B1 /* FBSDKShareKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0434842F1CE079EC00F75101 /* TwitterClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterClient.swift; sourceTree = "<group>"; };
+		043484321CE33BF200F75101 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		043484341CE3407F00F75101 /* Utis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utis.swift; sourceTree = "<group>"; };
+		043484381CE37FEF00F75101 /* MainScreenVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenVC.swift; sourceTree = "<group>"; };
 		045030FE1CDDA1F900B880B1 /* Survey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Survey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		045031011CDDA1F900B880B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		045031031CDDA1F900B880B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +34,13 @@
 		045031081CDDA1F900B880B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0450310B1CDDA1F900B880B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0450310D1CDDA1F900B880B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045031141CDDA8EA00B880B1 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		045031161CDDA8F200B880B1 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		045031181CDDA8F900B880B1 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		0450311A1CDDCBD100B880B1 /* Survey-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Survey-Bridging-Header.h"; sourceTree = "<group>"; };
+		AD02A3C68F5F1D28E763264E /* Pods_Survey.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Survey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAA688072D1A3C00D48209D2 /* Pods-Survey.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Survey.release.xcconfig"; path = "Pods/Target Support Files/Pods-Survey/Pods-Survey.release.xcconfig"; sourceTree = "<group>"; };
+		EBB4BC0A4A7BF321CFD3FCEE /* Pods-Survey.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Survey.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Survey/Pods-Survey.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +48,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045031171CDDA8F200B880B1 /* FBSDKLoginKit.framework in Frameworks */,
+				045031151CDDA8EA00B880B1 /* FBSDKCoreKit.framework in Frameworks */,
+				045031191CDDA8F900B880B1 /* FBSDKShareKit.framework in Frameworks */,
+				03B366AED3BE1E78A9EFEC58 /* Pods_Survey.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0434842E1CE079AA00F75101 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				0434842F1CE079EC00F75101 /* TwitterClient.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		043484311CE33B5100F75101 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				043484321CE33BF200F75101 /* User.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		043484361CE36E6F00F75101 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				043484341CE3407F00F75101 /* Utis.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		043484371CE37FC400F75101 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				045031031CDDA1F900B880B1 /* ViewController.swift */,
+				043484381CE37FEF00F75101 /* MainScreenVC.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		045030F51CDDA1F900B880B1 = {
 			isa = PBXGroup;
 			children = (
 				045031001CDDA1F900B880B1 /* Survey */,
 				045030FF1CDDA1F900B880B1 /* Products */,
+				7482C9B9A070C72A3D8F538E /* Pods */,
+				60646BA2D5EFC2520509A758 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +112,46 @@
 		045031001CDDA1F900B880B1 /* Survey */ = {
 			isa = PBXGroup;
 			children = (
+				043484371CE37FC400F75101 /* Controllers */,
+				043484361CE36E6F00F75101 /* Utils */,
+				043484311CE33B5100F75101 /* Models */,
+				0434842E1CE079AA00F75101 /* API */,
+				045031131CDDA8B100B880B1 /* FrameWork */,
 				045031011CDDA1F900B880B1 /* AppDelegate.swift */,
-				045031031CDDA1F900B880B1 /* ViewController.swift */,
 				045031051CDDA1F900B880B1 /* Main.storyboard */,
 				045031081CDDA1F900B880B1 /* Assets.xcassets */,
 				0450310A1CDDA1F900B880B1 /* LaunchScreen.storyboard */,
 				0450310D1CDDA1F900B880B1 /* Info.plist */,
+				0450311A1CDDCBD100B880B1 /* Survey-Bridging-Header.h */,
 			);
 			path = Survey;
+			sourceTree = "<group>";
+		};
+		045031131CDDA8B100B880B1 /* FrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				045031181CDDA8F900B880B1 /* FBSDKShareKit.framework */,
+				045031161CDDA8F200B880B1 /* FBSDKLoginKit.framework */,
+				045031141CDDA8EA00B880B1 /* FBSDKCoreKit.framework */,
+			);
+			name = FrameWork;
+			sourceTree = "<group>";
+		};
+		60646BA2D5EFC2520509A758 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD02A3C68F5F1D28E763264E /* Pods_Survey.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7482C9B9A070C72A3D8F538E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBB4BC0A4A7BF321CFD3FCEE /* Pods-Survey.debug.xcconfig */,
+				BAA688072D1A3C00D48209D2 /* Pods-Survey.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +161,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 045031101CDDA1F900B880B1 /* Build configuration list for PBXNativeTarget "Survey" */;
 			buildPhases = (
+				3E7FE7787460E24A2E1920CA /* 📦 Check Pods Manifest.lock */,
 				045030FA1CDDA1F900B880B1 /* Sources */,
 				045030FB1CDDA1F900B880B1 /* Frameworks */,
 				045030FC1CDDA1F900B880B1 /* Resources */,
+				7AFC842A64F18328FFDFF470 /* 📦 Embed Pods Frameworks */,
+				4B52BDB18E256A620AB75D7F /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,12 +224,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3E7FE7787460E24A2E1920CA /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4B52BDB18E256A620AB75D7F /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Survey/Pods-Survey-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AFC842A64F18328FFDFF470 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Survey/Pods-Survey-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		045030FA1CDDA1F900B880B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043484331CE33BF200F75101 /* User.swift in Sources */,
 				045031041CDDA1F900B880B1 /* ViewController.swift in Sources */,
+				043484351CE3407F00F75101 /* Utis.swift in Sources */,
+				043484391CE37FEF00F75101 /* MainScreenVC.swift in Sources */,
+				043484301CE079EC00F75101 /* TwitterClient.swift in Sources */,
 				045031021CDDA1F900B880B1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,23 +395,38 @@
 		};
 		045031111CDDA1F900B880B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBB4BC0A4A7BF321CFD3FCEE /* Pods-Survey.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Survey",
+				);
 				INFOPLIST_FILE = Survey/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Rea-Won-Kim.Survey";
+				PRODUCT_BUNDLE_IDENTIFIER = Survey.Survey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Survey/Survey-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		045031121CDDA1F900B880B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAA688072D1A3C00D48209D2 /* Pods-Survey.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Survey",
+				);
 				INFOPLIST_FILE = Survey/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Rea-Won-Kim.Survey";
+				PRODUCT_BUNDLE_IDENTIFIER = Survey.Survey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Survey/Survey-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -289,6 +449,7 @@
 				045031121CDDA1F900B880B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
